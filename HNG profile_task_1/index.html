@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HNG task 1</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>My Profile</h1>
+      <div class="profile-card">
+        <div class="displayImg">
+          <img
+            src="img/Evans.jpg.jpg"
+            data-testid="SlackDisplayImage"
+            alt="Evans"
+            class="SlackDisplayImage"
+          />
+        </div>
+
+        <div class="slackUserName">
+          <p data-testid="">Slack Username:<span>Evans__</span></p>
+        </div>
+        <div class="displayDay">
+          <p data-testid="currentdayOfTheWeek">
+            current day: <span class="currentdayOfTheWeek"></span>
+          </p>
+        </div>
+        <div class="displayTime">
+          <p data-testid="currentUTCTime">
+            time: <span class="currentTime"></span>
+          </p>
+        </div>
+        <div class="track">
+          <p data-testid="myTrack">Track: <span>Front-end</span></p>
+        </div>
+        <div class="displayButton">
+          <a
+            href="https://github.com/Evans2206/HNG_profilecard_1.git"
+            data-testid="githubURL"
+            ><button>view source code</button></a
+          >
+        </div>
+      </div>
+    </div>
+    <script src="task1.js"></script>
+  </body>
+</html>
